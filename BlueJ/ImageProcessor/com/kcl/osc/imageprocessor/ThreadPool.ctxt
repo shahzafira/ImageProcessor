@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=ThreadPool
+comment1.params=size
+comment1.target=ThreadPool(int)
+comment2.params=task
+comment2.target=void\ submit(java.lang.Runnable)
+comment2.text=\r\n\ Submits\ task\ to\ waiting\ queue\r\n\ @param\ task\ implements\ runnable\ to\ pass\ to\ thread\r\n
+comment3.params=
+comment3.target=void\ activateThreads()
+comment3.text=\r\n\ While\ tasks\ waiting\ (and\ not\ max\ threads\ reached),\r\n\ pass\ tasks\ to\ Threads\r\n
+comment4.params=
+comment4.target=void\ start()
+comment4.text=\r\n\ Start\ thread\ pool\ by\ creating\ threads\r\n
+comment5.params=
+comment5.target=void\ run()
+comment5.text=\r\n\ Clear\ terminated\ threads\ and\ pass\ any\ new\r\n\ tasks\ to\ new\ threads\ while\ waiting\ is\ not\ empty\r\n
+comment6.params=
+comment6.target=void\ clearActive()
+comment6.text=\r\n\ Rid\ of\ terminated\ threads\r\n
+comment7.params=
+comment7.target=void\ join()
+comment7.text=\r\n\ Make\ active\ threads\ wait\ till\ finished\r\n
+comment8.params=
+comment8.target=void\ quit()
+comment8.text=\r\n\ Terminate\ all\ threads\ and\ clear\ active\r\n
+numComments=9

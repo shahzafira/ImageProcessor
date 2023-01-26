@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.kcl.osc.imageprocessor","l":"ImageProcessorApplicationST"},{"p":"com.kcl.osc.imageprocessor","l":"ImageProcessorST"}]
